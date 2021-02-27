@@ -1,0 +1,2 @@
+requests
+https://github.com/1505194659/ZJ/blob/main/requirements
