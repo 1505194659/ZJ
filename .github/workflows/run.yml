@@ -24,4 +24,4 @@ jobs:
     - name: 签到
       run: |
         pip install -r requirements.txt
-        python3 checkin.py
+        python3 main.py
