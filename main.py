@@ -4,7 +4,7 @@ headers={
 r=requests.post("https://fyns.eduw.cn/stu/dk9.aspx",headers=headers)
 r.encoding='utf-8'
 h=r.text
-data={'text':'hh','desp':h}
+data={'text':'健康打卡结果','desp':h}
 headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36'
 }
 requests.post('https://sc.ftqq.com/SCU162308Tf0a5313c2ad0c45158a4f7bb0002a9c26038bc39782c1.send',headers=headers,data=data)
