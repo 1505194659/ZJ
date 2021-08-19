@@ -25,5 +25,5 @@ jobs:
       - name: 签到
         run: |
           python3 -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install requests
           python3 main.py
