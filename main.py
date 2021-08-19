@@ -1,2 +1,2 @@
 import requests
-requests.post("https://dk.zjabc.edu.cn/stu/dk.aspx")
+requests.get("https://dk.zjabc.edu.cn/stu/dk.aspx")
