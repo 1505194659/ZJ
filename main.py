@@ -5,7 +5,7 @@ r=s.post("https://dk.zjabc.edu.cn/stu/dk.aspx",headers=headers)
 data={'Button2':' 当前情况和上次一样，系统直接帮我打卡' ,'jd':'120.76048','wd':'30.122333','__VIEWSTATEGENERATOR': 'CE083383' , '__VIEWSTATE': '/wEPDwUIODQ5MzIxODBkZNojZjs69XW2iGO0Njs6v0utnOAjU04Jt2viA4xY5F7J'}
 k=s.post('https://dk.zjabc.edu.cn/stu/dk.aspx',data=data,headers=headers)
 h=k.text
-data={'text':'健康打卡结果','desp':h}
+data={'title':'健康打卡结果','desp':h}
 headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36'
 }
 requests.post('https://sctapi.ftqq.com/SCT65261TnN9vI4jsKohOHP5aSmxqKo0s.send?',headers=headers,data=data)
